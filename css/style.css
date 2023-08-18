@@ -1,0 +1,43 @@
+a{
+    color: #fff;
+}
+body{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container{
+    height: 3760px;
+    width: 1440px;
+    background-color:#fff;
+}
+.headofheader{
+    color: #fff;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    height: 142px;
+    background-color: #00445E;
+}
+.headofpage{
+    display: flex;
+    flex-direction: column;
+    height: 810px;
+}
+.navheader{
+    margin: auto;
+}
+.searchform{
+    display: flex;
+    align-items: flex-end;
+}
+.footofheader{
+    background-image: url("C:/Users/dev/Desktop/html/html_exam/img/hop.png");
+
+}
+.textstop{
+    color:#fff;
+    font-size: 77px;
+    text-align:center;
+}
