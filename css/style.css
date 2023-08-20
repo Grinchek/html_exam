@@ -1,43 +1,104 @@
-a{
-    color: #fff;
-}
-body{
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-.container{
-    height: 3760px;
-    width: 1440px;
-    background-color:#fff;
-}
-.headofheader{
-    color: #fff;
-    display: flex;
-    justify-content:space-around;
-    flex-direction: row;
-    height: 142px;
-    background-color: #00445E;
-}
-.headofpage{
+.container {
     display: flex;
     flex-direction: column;
-    height: 810px;
-}
-.navheader{
-    margin: auto;
-}
-.searchform{
-    display: flex;
-    align-items: flex-end;
-}
-.footofheader{
-    background-image: url("C:/Users/dev/Desktop/html/html_exam/img/hop.png");
+    width: 1440px;
+    height: 100%;
 
 }
-.textstop{
-    color:#fff;
+
+.header {
+    height: 810px;
+    background-image: url("../img/hop.png");
+    color: #fff;
+    text-align: center;
+
+}
+
+.headtext {
+    font-weight: 700;
     font-size: 77px;
-    text-align:center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 142px;
+    background-color: #004660;
+}
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navlist li {
+    margin-left: 20px;
+}
+
+.navinput {
+    background-image: url("../img/lupa.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-color: #276f98;
+    width: 225px;
+    height: 41px;
+    border-radius: 12px;
+}
+
+.content {
+    width: 1100px;
+    margin-left: 165px;
+}
+
+.state {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("../img/state-back.svg");
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 100px;
+
+}
+
+.state .statetextcont {
+    width: 70%;
+    background-color: #EEEEEE94;
+    height: 50%;
+
+}
+
+.state .statetextcont .statetext {
+    font-weight: 400;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 25p;
+    text-align: justify;
+    margin-top: -21%;
+    margin-left: 8%;
+    margin-right: 8%;
+
+}
+
+.state .statetextcont .statetriangle {
+    position: relative;
+    top: 2px;
+    left: 74.5%;
+    opacity: 100%;
+    width: 200px;
+    height: 200px;
+    border-top: 4px solid #f18a56;
+    border-right: 4px solid #f18a56;
+
+}
+
+.newstxt {
+    border-bottom: 5px solid #EF6621;
+    width: 804px;
+    font-size: 48px;
+    font-weight: 600;
 }
